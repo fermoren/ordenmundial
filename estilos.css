@@ -114,7 +114,7 @@ float: left;
 	width: 100%; 
 	display: flex; 
 	flex-direction: row; 
-	border-bottom: 1px solid #ededed; 
+	border-bottom: 0px solid #ededed; 
 	justify-content: space-around;
 	vertical-align: middle;
 	margin-top:auto;
@@ -199,6 +199,7 @@ h1 {
 	margin-top: 3px;
 	text-transform: uppercase;
 	color:grey;
+	font-family: 'Arvo';
 }
 
 
@@ -250,9 +251,7 @@ h1 {
 	font-size: 16px;
 	display: flex;
 	flex-direction: column;
-	font-family: 'Arvo';
 	text-align: justify;
-	
 }
 
 
@@ -317,6 +316,20 @@ h1 {
 	border-bottom: 2px solid #968a7d; 
 	font-size: 16px; 
 	font-weight: normal;
+	font-family: 'Roboto Condensed';
+	letter-spacing: 0px;
+	
+}
+
+.ciberguerra {
+	background-color: #7a5e7a; 
+	border:1px solid #7a5e7a; 
+	border-bottom:2px solid #7a5e7a; 
+	color:white; 
+	font-weight: normal; 
+	font-size: 16px; 
+	font-family: 'Roboto Condensed'; 
+	letter-spacing: 0px;
 }
 
 
@@ -481,8 +494,8 @@ h1 {
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
-	padding:0px;
-	margin:0px;
+	margin-top:auto;
+	margin-bottom:auto;
 }
 
 
@@ -502,32 +515,35 @@ h1 {
 	color:grey;
 	margin:0px;
 	margin-top:0px;
-	font-family: 'Roboto Condensed';
+	font-family: 'Libre Caslon Text';
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	border-bottom: 10px solid #914644;
+	border:2px solid #303030;
+	margin-left: auto;
+	margin-right: auto;
+
 
 }
 
 
 .lasmasleidas h3 {
-font-family: 'Roboto Condensed';
-font-size: 20px;
-letter-spacing: 1px;
+font-family: 'Libre Caslon Text';
+font-size: 18px;
+letter-spacing: 0px;
 font-weight: normal;
 text-transform: uppercase;
 font-variant: small-caps;
 text-align: center;
-color:white;
+color:#ebebeb;
 padding: 5px;
+padding-left: 20px;
 margin-right: 0px;
 margin-left: 0px;
 margin-top:0px;
-margin-bottom: 0px;
-background-color: #914644;
-border-radius: 2px;
-border-bottom: 2px solid #914644 ;
+margin-bottom: 5px;
+background-color: #303030;
+border-bottom: 4px solid #303030 ;
 
 }
 
@@ -552,39 +568,42 @@ border-bottom: 2px solid #914644 ;
 	color: grey;
 	text-transform: uppercase;
 	font-variant: small-caps;
-	font-size: 18px;
-	color:#914644;
+	font-size: 14px;
+	color: #303030;
 	text-align: center;
 	margin-bottom: 0px;
 	padding-bottom:2px;
 	padding-top:2px;
-	margin-top:20px;
-	background-color: #914644;
-	color:white;
-	font-weight: normal;
+	margin-top:10px;
+	margin-right: 20px;
+	margin-left: 40px;
+	background-color: #ebebeb;
+	font-weight: bold;
+	border-right: 0px solid #303030;
+	border-left: 20px dashed #303030;
 }
 
 .lasmasleidasdivcelular li {
 	font-size: 20px;
 	letter-spacing: -1px;
 	padding:0px;
-	padding-top:10px;
+	padding-top:5px;
 	margin:0px;
-	color:#914644;
+	color:#ebebeb;
 	text-decoration: none;
 	font-weight: bold;
-	align-items: left;
+	align-items: center;
 	list-style: square;
+	text-align: left;
+	margin-left: 10px;
 }
 
 
 .lasmasleidasdivcelular li a {
 	font-size: 14px;
-	letter-spacing: 1px;
+	letter-spacing: -1px;
 	color: grey;
-	font-family: 'Roboto Condensed';
-	text-transform: uppercase;
-	font-variant: small-caps;
+	font-family: 'Libre Caslon Text';
 	font-weight: normal;
 	margin-top:auto;
 	margin-bottom: auto;
@@ -623,7 +642,7 @@ border-bottom: 2px solid #914644 ;
 
 
 #contenedor2{
-	width: 100%;
+	width: 99%;
 	margin-top: 20px;
 	display: flex;
 	flex-direction: column;
@@ -633,14 +652,22 @@ border-bottom: 2px solid #914644 ;
 #contenedor2 h5 {
 	padding:2px;
 	margin:0px;
-	margin-right: -10px;
+	padding-top:6px;
 	background-color: #303030;
 	color: white;
 	font-variant: small-caps;
 	text-transform: uppercase;
-	font-size: 20px;
+	font-size: 16px;
 	text-align: center;
 	width: 100%;
+	font-family: 'Libre Caslon Text';
+	word-spacing: 6px;
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+
+.financiero {
+	margin-bottom: 20px;
 }
 
 #contenedor2 h4 {
@@ -706,18 +733,17 @@ border-bottom: 2px solid #914644 ;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
-	border-top: 0px solid #ebebeb ;
+	border-top: 4px solid #ebebeb ;
 	border-bottom: 4px solid #ebebeb;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 12px;
+	padding-bottom: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 10px;
 	padding-right: 10px;
-	margin-bottom: 10px;
-	margin-top:10px;
+	margin-bottom: 0px;
+	margin-top:0px;
 	font-size: 16px;
-	font-family: 'Libre Caslon Text';
 	letter-spacing: -1px;
 	align-items:center;
 	text-align: justify;
@@ -727,9 +753,9 @@ border-bottom: 2px solid #914644 ;
 
 .notahorizontal h3 {
 	font-family:'Libre Caslon Text';
-	font-size:26px;
+	font-size:28px;
 	text-align: left;
-	padding-bottom:10px;
+	padding-bottom:8px;
 	margin-bottom:0px;
 	margin-top:0px;
 }
@@ -740,6 +766,9 @@ border-bottom: 2px solid #914644 ;
 	padding-bottom:0px; 
 	margin-top:0px; 
 	margin-bottom: 0px;
+	min-height: 200px;
+	min-width: 300px;
+	overflow: hidden;
 }
 
 
@@ -748,6 +777,8 @@ border-bottom: 2px solid #914644 ;
 	align-items: center;
 	padding-bottom:0px;
 	margin-bottom: 0px;
+	height: auto;
+	
 }
 
 .notahorizontaltext {
@@ -766,8 +797,10 @@ border-bottom: 2px solid #914644 ;
 	padding-top: 0px;
 	margin-bottom: 0px:
 	padding-bottom:0px;
-	max-height: 120px;
+	max-height: 140px;
 	overflow: hidden;
+	line-height: 1.8em;
+	font-family: 'Libre Caslon Text';
 	
 }
 
@@ -776,7 +809,7 @@ border-bottom: 2px solid #914644 ;
 	padding-bottom:0px;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	font-size: 16px;
+	font-size: 15px;
 	letter-spacing: 0px;
 
 }
@@ -806,6 +839,8 @@ border-bottom: 2px solid #914644 ;
 	padding-top:8px;
 	margin-left:10px;
 	border-bottom: 4px solid #ebebeb;
+	margin-top:10px;
+	margin-bottom:10px;
 
 }
 
@@ -864,22 +899,26 @@ border-bottom: 2px solid #914644 ;
 	max-height: 80px;
 	overflow: hidden;
 	font-size: 16px;
+	font-family: 'Libre Caslon Text';
+	line-height: 1.8em;
+	letter-spacing: -1px;
 }
 
 .doblenota h3 {
-	font-size: 1.2em;
+	font-size: 24px;
 	letter-spacing: -2px;
 	margin:0px;
 	padding:0px;
 	text-align: left;
 	padding-left: 10px;
+	font-family: 'Libre Caslon Text';
 }
 
 
 
 
 .doblenota .seccion2 {
-font-size: 14px;
+font-size: 16px;
 font-family: 'Roboto Condensed';
 letter-spacing: 0px;
 }
@@ -893,10 +932,26 @@ letter-spacing: 0px;
 	padding-top: 5px;
 	margin-top: 5px;
 	padding-left: 10px;
+	font-family: 'Roboto Condensed';
 }
 
 
+.doblenota h1 {
+	margin-right: 10px;
+	margin-left: 10px;
+}
 
+
+.pciberguerra {
+	margin:0px;
+	padding:0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-left: 10px;
+	max-height: 60px;
+	overflow: hidden;
+	font-size: 16px;
+}
 
 
 
@@ -930,11 +985,12 @@ letter-spacing: 0px;
 	padding-left: 0px;
 	margin-top:5px; 
 	margin-bottom:5px;
+	line-height: 1.6em;
 	
 }
 
 .noticiasyrecomendaciones .seccion2 {
-font-size: 14px;
+font-size: 15px;
 font-family: 'Roboto Condensed';
 letter-spacing: 0px;
 }
@@ -947,12 +1003,17 @@ letter-spacing: 0px;
 	padding-bottom: 5px;
 	margin-top:auto;
 	margin-bottom:auto;
+	margin-right: 20px;
 
 }
+
+
+
 
 .noticiashorizontales h3 {
 	margin:0px;
 	padding:0px;
+	font-size: 20px;
 	
 }
 
@@ -1003,6 +1064,8 @@ letter-spacing: 0px;
 	font-family: 'Roboto Condensed';
 	display: flex;
 	flex-direction: column;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .recomendaciones h1 {
@@ -1111,6 +1174,8 @@ color:grey;
 	margin-top:20px;
 	display: flex;
 	flex-direction: row;
+	max-height: 430px;
+	overflow: hidden;
 
 }
 
@@ -1118,33 +1183,73 @@ color:grey;
 	width: 30%;
 	margin:10px;
 	background-color: white ;
-	height: 200px;
+	display: flex;
+	flex-direction: column;
+
+
 
 }
 
+.infografia img{
+	width: 100%;
+	height: 100%;
+	max-height: 300px;
+	overflow: hidden;
+
+}
+
+.infografia h3 {
+	font-size: 20px; 
+	letter-spacing:-2px; 
+	padding-top:0px; 
+	margin-top:0px;
+	padding-bottom: 0px;
+	margin-bottom: 5px;
+}
+
+.infografia p {
+	font-family: 'Libre Caslon Text';
+	font-size: 14px;
+	line-height: 1.6em;
+	margin-top: 0px;
+	padding-top:0px;
+	text-align: justify;
+	letter-spacing: -1px;
+}
 
 
+.infografia h4 {
+	padding-top:5px;
+	margin-top:0px; 
+	margin-bottom: 0px; 
+	font-size: 14px;
+}
+
+.infografia .seccion2 {
+	font-size: 14px;
+	font-family: 'Roboto Condensed';
+	letter-spacing: 0px;
+	text-align: left;
+}
 
 .cuatronotas {
-width: 70%;
+width: 80%;
  display: flex;
  flex-direction: row;
 }
 
 .cuatronotas div {
- width: 30%;
+ width: 32%;
  padding-right: 10px;
  padding-left: 10px;
  padding-top:10px;
  padding-bottom:0px;
- max-height: 448px;
- overflow: hidden;
  border-bottom:10px solid white;
 }
 
 .cuatronotas div img {
-	width:200px;
-	min-width: 200px;
+	width:280px;
+	min-width: 280px;
 	overflow: hidden;
 	
 }
@@ -1161,19 +1266,25 @@ width: 70%;
 	padding-top:5px;
 	font-size: 18px;
 	padding-right:10px;
+	padding-bottom:0px;
 }
 
 .cuatronotas p{
 	font-size: 14px;
-		font-family: 'Libre Caslon Text';
+	font-family: 'Libre Caslon Text';
 	letter-spacing: -1px;
 	padding-right: 10px;
+	line-height: 1.6em;
+	padding-top:0px;
+	margin-top:5px;
+	text-align: justify;
 }
 
 .cuatronotas .seccion2 {
 	font-size: 14px;
 	font-family: 'Roboto Condensed';
 	letter-spacing: 0px;
+	text-align: left;
 }
 
 
@@ -1183,23 +1294,24 @@ width: 100%;
  flex-direction: row;
  padding-bottom:30px;
  padding-top: 20px;
+ margin-top:10px;
 
 }
 
 .seisnotas div {
- width: 20%;
+ width: 18%;
  padding-right: 15px;
  padding-left: 15px;
  padding-top:10px;
  padding-bottom:0px;
- max-height: 347.5px;
+ max-height: 336px;
  overflow: hidden;
  border-bottom:10px solid white;
 }
 
 .seisnotas div img {
-	width:180px;
-	min-width: 180px;
+	width:235px;
+	min-width: 235px;
 	overflow: hidden;
 
 }
@@ -1215,19 +1327,26 @@ width: 100%;
 	margin:0px;
 	padding-top:5px;
 	font-size: 16px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
 }
 
 .seisnotas .seccion2 {
 	font-size: 14px;
 	letter-spacing: 0px;
 	font-family: 'Roboto Condensed';
+	text-align: left;
 }
 
 
 .seisnotas p {
 	font-size: 14px;
-		font-family: 'Libre Caslon Text';
+	font-family: 'Libre Caslon Text';
 	letter-spacing: -1px;
+	text-align: justify;
+	line-height: 1.6em;
+	margin-top:5px;
+
 }
 
 
@@ -1240,6 +1359,7 @@ width: 100%;
 	padding-bottom: 20px;
 	font-family: 'Roboto Condensed';
 	color:grey;
+
 }
 
 footer .footer {
@@ -1247,6 +1367,7 @@ footer .footer {
 	width: 100%; 
 	padding:0px; 
 	margin-top:10px; 
+	background-color: #f7f7f7;
 
 }
 
@@ -1254,7 +1375,7 @@ footer .footer p{
 	text-align: center; 
 	margin:2px; 
 	padding:6px; 
-	padding-top:20px;
+	padding-top:10px;
 	font-size: 16px; 
 	font-family: 'Roboto Condensed'; 
 	color: #969696; 
@@ -1262,10 +1383,9 @@ footer .footer p{
 	text-transform: uppercase; 
 	font-style: italic; 
 	font-weight: bold; 
-	border-top:6px solid #ebebeb;; 
-	border-bottom: 0px solid grey;
-	margin-right: 50px;
-	margin-left: 50px;
+	border-top: 4px solid #ebebeb; 
+	border-bottom: 4px solid #ebebeb;
+
 }
 
 
@@ -1278,6 +1398,7 @@ footer .footer2 {
 	padding-bottom:10px;
 	border-bottom: 3px solid white;
 	margin-bottom:5px;
+	background-color: #f7f7f7;
 }
 
 footer .footerom {
@@ -1291,7 +1412,7 @@ footer .footerom img {
 	margin-left:auto; 
 	margin-right: auto; 
 	float:center; 
-	filter: opacity(80%);
+	filter: opacity(60%);
 	padding:2px;
 }
 
@@ -1373,6 +1494,7 @@ footer .footerconetting a img {
 	padding:10px;  
 	margin-top:auto; 
 	margin-bottom: auto; 
+	filter: opacity(60%);
 }
 
 
@@ -1435,23 +1557,34 @@ ALGUNAS MODIFICACIONES PARA LAS PAGINAS DE SECCIONES.-*/
 #costadosecciones {
 	width: 30%;
 	margin-right: 8px;
+
 }
 
 #costadosecciones h1 {
 	text-align: center;
-	font-size: 24px;
-	padding:5px;
-}
-
-#costadosecciones .recomendaciones h1 {
-	text-align: left;
 	font-size: 20px;
 	padding:5px;
 }
 
-#costadosecciones p {
+
+
+#costadosecciones h4 {
+	padding-top:0px;
+	margin-top:5px;
+	margin-bottom: 0px;
+}
+
+#costadosecciones .recomendaciones h1 {
+	text-align: left;
 	font-size: 14px;
+	padding:5px;
+}
+
+#costadosecciones p {
+	font-size: 12px;
 	color: #303030;
+	padding-top:0px;
+	margin-top:5px;
 }
 
 
@@ -1461,7 +1594,10 @@ ALGUNAS MODIFICACIONES PARA LAS PAGINAS DE SECCIONES.-*/
 	width: 100%;
 	display: flex;
 	flex-direction: row;
-	padding-top: 20px;
+	padding-top: 10px;
+	border-top: 4px solid #ebebeb;
+	margin-top:0px;
+
 
 }
 
@@ -1479,6 +1615,7 @@ ALGUNAS MODIFICACIONES PARA LAS PAGINAS DE SECCIONES.-*/
 	width: 100%;
 	display: flex;
 	flex-direction: column;
+
 }
 
 
@@ -1487,29 +1624,36 @@ ALGUNAS MODIFICACIONES PARA LAS PAGINAS DE SECCIONES.-*/
 
 .titulosecciones p {
 
-background: -webkit-linear-gradient(left, white, #914644);
-background: -o-linear-gradient(left, white, #914644);
-background: linear-gradient(to right, white, #914644);
+/* background: -webkit-linear-gradient(left,  #914644, white);
+background: -o-linear-gradient(left, #914644, white);
+background: linear-gradient(to right, #914644, white);   */
+
 padding:0px;
 margin:0px;
-margin-left: 100px;
+margin-left: 10px;
 border-radius: 2px;
 margin-right: 8px;
+margin-right: 400px;
 
 }
 
 
 
 
-.h1secciones {
-	font-size: 45px;
-	font-family: 'Libre Caslon Text';
+.titulosecciones .h1secciones {
+	font-size: 34px;
+	font-family: 'Arvo';
 	border-top: 0px solid white;
 	border-bottom: 0px solid grey;
 	color:#914644;
-	margin-top: 5px;
+	margin-top: 15px;
 	padding-top:0px;
 	margin-bottom: 0px;
+	letter-spacing: -1px;
+	font-weight: normal;
+	margin-left:20px;
+	padding-left: 20px;
+	border-left: 30px solid #914644;
 
 }
 
@@ -1551,6 +1695,7 @@ margin-right: 8px;
 	font-size: 14px;
 	margin-top:0px;
 	width: 100%;
+
 }
 
 
@@ -1575,6 +1720,7 @@ margin-right: 8px;
 	width: 75%;
 	margin-top:auto;
 	margin-bottom: auto;
+
 }
 
 
@@ -1585,10 +1731,22 @@ margin-right: 8px;
 	font-size: 18px;
 }
 
+
+
+.todaslasnotastabletyceltexto .ciberguerra {
+	background-color: #7a5e7a; 
+	border:1px solid #7a5e7a; 
+	border-bottom:2px solid #7a5e7a; 
+	color:white; 
+	font-weight: normal; 
+	font-size: 16px; 
+	font-family: 'Roboto Condensed'; 
+	letter-spacing: 0px;
+}
+
 .todaslasnotastabletycelimg img {
 	width: 100%;
 	padding:0px;
-	border-radius: 4px 8px 4px 8px;
 	border: 2px solid white;
 	min-width: 200px;
 	overflow: hidden;
@@ -1599,10 +1757,12 @@ margin-right: 8px;
 	padding-top: 0px;
 	margin:5px;
 	font-family: 'Libre Caslon Text';
-	font-size: 1em;
+	font-size: 16px;
+	line-height: 1.8em;
 	color:#303030;
 	max-height: 90px;
 	overflow: hidden;
+	letter-spacing: -1px;
 }
 
 
@@ -1620,8 +1780,11 @@ font-weight: normal;
 
 .todaslasnotastabletycel h3 {
 	margin:5px;
-	font-size: 1.4em;
-	
+	font-size: 28px;
+	font-family: 'Libre Caslon Text';
+	font-weight: 500;
+	letter-spacing: -2px;
+
 
 }
 
@@ -1643,7 +1806,7 @@ ALGUNAS MODIFICACIONES PARA LAS PAGINAS DE NOTAS ENTERAS.-*/
 
 
 #contenedor1 .contenedornota {
-	width:70%;
+	width:85%;
 	margin:0px;
 	margin-bottom: 0px;
 	padding-bottom:0px;
@@ -1740,8 +1903,10 @@ ALGUNAS MODIFICACIONES PARA LAS PAGINAS DE NOTAS ENTERAS.-*/
 	border-top:none;
 	padding-left: 15px;
 	border-bottom: 4px solid #e6e6e6;
-	font-size: 30px;
+	font-size: 26px;
 	margin-right: 50px;
+	font-family: 'Arvo';
+	font-weight: 600;
 
 }
 
@@ -1870,14 +2035,26 @@ ALGUNAS MODIFICACIONES PARA LAS PAGINAS DE NOTAS ENTERAS.-*/
 
 
 
+#auspiciantescel {
+	display: none;
+}
 
 
 
 
+.seccion {
+	border-left: 10px solid #872d53;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-right: 0px dashed #ebebeb;
+}
 
-
-
-
+.seccion2 {
+	border-left: 10px solid #872d53;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-right: 0px dashed #ebebeb;
+}
 
 
 
@@ -1909,14 +2086,14 @@ ALGUNAS MODIFICACIONES PARA LAS PAGINAS DE NOTAS ENTERAS.-*/
 
 
 
-/* PARA TABLET *//* PARA TABLET *//* PARA TABLET *//* PARA TABLET *//* PARA TABLET *//* PARA TABLET *//* PARA TABLET *//* PARA TABLET *//* PARA TABLET *//* PARA TABLET *//* PARA TABLET *//* PARA TABLET *//* PARA TABLET *//* PARA TABLET *//* PARA TABLET *//* PARA TABLET *//* PARA TABLET *//* PARA TABLET *//* PARA TABLET *//* PARA TABLET */
+/* PARA TAMAÑO TABLET *//* PARA TAMAÑO TABLET *//* PARA TAMAÑO TABLET *//* PARA TAMAÑO TABLET *//* PARA TAMAÑO TABLET *//* PARA TAMAÑO TABLET *//* PARA TAMAÑO TABLET *//* PARA TAMAÑO TABLET *//* PARA TAMAÑO TABLET *//* PARA TAMAÑO TABLET *//* PARA TAMAÑO TABLET *//* PARA TAMAÑO TABLET */
 
-@media screen and (min-width: 500px) and (max-width: 1100px) {
+@media screen and (min-width: 710px) and (max-width: 1100px) {
 
 }
  
 
-@media screen and (min-width: 500px) and (max-width: 1100px) {
+@media screen and (min-width: 710px) and (max-width: 1100px) {
 
 
 
@@ -1993,7 +2170,7 @@ ALGUNAS MODIFICACIONES PARA LAS PAGINAS DE NOTAS ENTERAS.-*/
 	width: 100%; 
 	display: flex; 
 	flex-direction: row; 
-	border-bottom: 1px solid #ededed; 
+	border-bottom: 0px solid #ededed; 
 	justify-content: space-around;
 	vertical-align: middle;
 	margin-top:auto;
@@ -2054,28 +2231,32 @@ ALGUNAS MODIFICACIONES PARA LAS PAGINAS DE NOTAS ENTERAS.-*/
 	font-size: 18px;
 }
 
-.notaprincipal {
-	font-size: 16px;
-}
 
 
 .notaprincipal p {
-	font-size: 12px;
-	line-height: none;
+	font-size: 18px;
+	font-family: 'Libre Caslon Text';	
 }
 
 .contenedornota a h3 {
-	font-size: 26px;
+	font-size: 32px;
+	font-family: 'Libre Caslon Text';
 }
 
 .notaprincipal .seccion {
-	font-size: 12px;
+	font-size: 16px;
+	font-family: 'Roboto Condensed';
 }
 
 .contenedornota h1 {
-	font-size: 10px;
+	font-size: 18px;
+	font-family: 'Arvo';
 }
 
+.contenedornota .terrorismo {
+	font-size: 16px;
+	font-family: 'Roboto Condensed';
+}
 
 .contenedornota h4 {
 	font-size: 14px;
@@ -2136,7 +2317,7 @@ ALGUNAS MODIFICACIONES PARA LAS PAGINAS DE NOTAS ENTERAS.-*/
 	font-size: 26px;
 	font-family: 'Roboto Condensed';
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 }
 
@@ -2149,7 +2330,7 @@ ALGUNAS MODIFICACIONES PARA LAS PAGINAS DE NOTAS ENTERAS.-*/
 }
 
 .recomendacionesindividuales h1{
-	font-size: 28px;
+	font-size: 18px;
 }
 
 .recomendacionescelular h1 {
@@ -2232,6 +2413,7 @@ background: linear-gradient(to right, #b2b7b8, white);
 #contenedor2 h5 {
 	padding:2px;
 	margin:0px;
+	padding-top:5px;
 	margin-right: -10px;
 	background-color: #303030;
 	color: white;
@@ -2241,6 +2423,9 @@ background: linear-gradient(to right, #b2b7b8, white);
 	text-align: center;
 }
 
+.financiero {
+	margin-bottom:20px;
+}
 
 
 .lasmasleidascelular {
@@ -2250,30 +2435,35 @@ background: linear-gradient(to right, #b2b7b8, white);
 	color:grey;
 	margin:0px;
 	margin-top:0px;
-	font-family: 'Roboto Condensed';
+	font-family: 'Libre Caslon Text';
 	display: flex;
 	flex-direction: column;
+	justify-content: space-around;
+	border:2px solid #303030;
+	margin-left: auto;
+	margin-right: auto;
+
 
 }
 
 
 .lasmasleidascelular h3 {
-font-family: 'Roboto Condensed';
-font-size: 28px;
-letter-spacing: 1px;
+font-family: 'Libre Caslon Text';
+font-size: 16px;
+letter-spacing: 0px;
 font-weight: normal;
 text-transform: uppercase;
 font-variant: small-caps;
 text-align: center;
-color:white;
+color:#ebebeb;
 padding: 5px;
-margin-right: 20px;
-margin-left: 20px;
+padding-left: 20px;
+margin-right: 0px;
+margin-left: 0px;
 margin-top:0px;
 margin-bottom: 0px;
-background-color: #914644;
-border-radius: 2px;
-border-bottom: 2px solid white ;
+background-color: #303030;
+border-bottom: 4px solid #303030 ;
 
 }
 
@@ -2282,47 +2472,72 @@ border-bottom: 2px solid white ;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
 }
 
 .lasmasleidasdivcelular div {
-	width: 33.3%;
+	width: 33%;
 	background-color: white;
 	align-items: center;
-	padding:0px;
-	margin:0px;
+	
 
 
 }
 
 .lasmasleidasdivcelular div h2 {
+	color: grey;
 	text-transform: uppercase;
 	font-variant: small-caps;
-	font-size: 18px;
+	font-size: 12px;
+	color: #303030;
 	text-align: center;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 	padding-bottom:2px;
 	padding-top:2px;
+	margin-top:10px;
+	margin-right: 20px;
+	margin-left: 40px;
+	background-color: #ebebeb;
+	font-weight: bold;
+	border-right: 0px solid #303030;
+	border-left: 20px dashed #303030;
 }
 
 .lasmasleidasdivcelular li {
-	font-size: 15px;
+	font-size: 20px;
 	letter-spacing: -1px;
 	padding:0px;
-	padding-top:10px;
+	padding-top:5px;
 	margin:0px;
-	color:#914644;
+	color:#ebebeb;
 	text-decoration: none;
 	font-weight: bold;
+	align-items: center;
+	list-style: square;
+	text-align: left;
+	margin-left: 10px;
 }
-
 
 
 .lasmasleidasdivcelular li a {
-	font-size: 13px;
+	font-size: 14px;
+	letter-spacing: -1px;
 	color: grey;
-	font-family: 'Roboto Condensed';
+	font-family: 'Libre Caslon Text';
 	font-weight: normal;
+	margin-top:auto;
+	margin-bottom: auto;
+
 }
+
+.lasmasleidasdivcelular ul {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	vertical-align: middle;
+}
+
 
 
 
@@ -2335,11 +2550,15 @@ border-bottom: 2px solid white ;
 .fotoshistoricascel {
 	width: 100%;
 	margin-bottom:10px;
+	display: flex;
 }
 
 .fotoshistoricascel img {
-	width: 100%;
-
+	width: 45%;
+	margin-top:auto;
+	margin-bottom:auto;
+	float: center;
+	padding:10px;
 }
 
 #auspiciantescel {
@@ -2371,7 +2590,7 @@ border-bottom: 2px solid white ;
 }
 
 .todaslasnotastabletyceltexto h3 {
-	font-size: 1.2em;
+	font-size: 24px;
 }
 
 .todaslasnotastabletyceltexto p {
@@ -2392,7 +2611,9 @@ border-bottom: 2px solid white ;
 	width: 100%;
 }
 
-
+.contenedorgris2 {
+	display: none;
+}
 
 .contenedorgris3 div {
 	display: none;
@@ -2411,9 +2632,15 @@ display: none;
 }
 
 
+.notaprincipal img {
+	min-width: 330px;
+	max-width: 350px;
+	overflow: hidden;
+}
+
 
 .todaslasnotastabletycel .todaslasnotastabletyceltexto {
-	width: 70%;
+	width: 80%;
 	min-width: 200px;
 	overflow: hidden;
 }
@@ -2421,7 +2648,7 @@ display: none;
 
 
 .todaslasnotastabletycel .todaslasnotastabletycelimg {
-	width: 30%;
+	width: 20%;
 	min-width: 220px;
 	overflow: hidden;
 }
@@ -2446,8 +2673,6 @@ display: none;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	border-top: 0.5px solid gray ;
-	border-bottom: 0px solid gray;
 	padding-top: 0px;
 	padding-bottom: 10px;
 	margin-left: 0px;
@@ -2466,51 +2691,75 @@ display: none;
 .notastabletindividual {
 	width: 100%; 
 	padding:0px;
-	padding-top:10px;
-	padding-bottom:10px;
-	margin:0px;
+	padding-top:20px;
+	padding-bottom:20px;
 	display: flex;
 	flex-direction: row;
-	border-bottom: 1px solid grey;
+	border-bottom: 4px solid #ebebeb;
 	align-items: center;
+	margin-top:auto;
+	margin-bottom:auto;
 }
 
 
 
 .notastablet h3 {
 	font-family:'Libre Caslon Text';
-	font-size:18px;
+	font-size:24px;
 	text-align: left;
-	padding-bottom:10px;
+	padding-bottom:8px;
 	margin-bottom:0px;
 	margin-top:0px;
 	color: #303030;
 }
 
 .notastabletimg  {
-	width: 40%;
-	padding-bottom:0px;
-	margin-bottom: 0px;
-	float: right;
+	width: 300px;
+	margin-top:auto;
+	margin-bottom:auto;
+	min-width: 250px;
+	max-height: 200px;
+	min-height: 200px;
+	overflow: hidden;
+	display: flex;
 }
 
 .notastabletimg img {
-	width: 100%; 
-	padding:0px;
+	width:100%;
+	margin-top:auto;
+	margin-bottom:auto;
 	
   }
 
 .notastablettext {
-	width: 60%;
-	margin:10px;
+	width: 70%;
+	padding:10px;
+	padding-top:0px;
+	padding-bottom: 0px;
+	
 }
 
 .notastablettext p {
 padding:0px;
-margin:0px;
-max-height: 45px;
+margin-top:auto;
+margin-bottom:auto;
+max-height: 115px;
 overflow: hidden;
-font-size: 14px;
+font-size: 16px;
+font-family: 'Libre Caslon Text';
+line-height: 1.8em;
+letter-spacing: -1.5px;
+}
+
+
+.notastablettext .pciberguerra {
+	max-height: 85px;
+	overflow: hidden;
+}
+
+.notastablettext .pterrorismo {
+	max-height: 85px;
+	overflow: hidden;
 }
 
 
@@ -2527,8 +2776,11 @@ font-size: 14px;
 
 
 .notastablet .seccion2 {
-	font-size: 12px;
+	font-size: 15px;
+	font-family: 'Roboto Condensed';
+	letter-spacing: 0px;
 }
+
 
 
 
@@ -2554,14 +2806,14 @@ footer .footer p {
 	text-align: center; 
 	margin:2px; 
 	padding:6px; 
-	font-size: 12px; 
+	font-size: 16px; 
 	font-family: 'Roboto Condensed'; 
 	color: #969696; 
 	font-variant:small-caps; 
 	text-transform: uppercase; 
 	font-style: italic; 
 	font-weight: bold; 
-	border-top: 0.5px solid #dbdbdb; 
+	border-top: 4px solid #ebebeb; 
 	
 }
 
@@ -2583,52 +2835,55 @@ footer .footerom {
 
 
 footer .footerom img {
-	width: 90%;	
+	width: 60%;	
 	margin-left:auto; 
 	margin-right: auto;
 	padding:0px; 
 	float:center; 
-	filter: opacity(80%);
+	filter: opacity(50%);
 
 }
 
 
 footer .footermail {
-	width: 10%;
+	width: 5%;
+	margin:2%;
 	text-align: center;
 	
 }
 
 footer .footermail img {
-	width: 40%;
+	width: 60%;
 	filter: opacity(50%);
 	border-radius: 2px;
 }
 
 
 footer .footerig {
-	width: 10%;
+	width: 5%;
+	margin:2%;
 }
 
 footer .footerig img {
-	width: 40%;
+	width: 60%;
 	filter: opacity(50%);
 }
 
 
 footer .footerfb {
-	width: 10%;
+	width: 5%;
+	margin:2%;
 }
 
 footer .footerfb img {
-	width: 40%;
+	width: 60%;
 	filter: opacity(50%);
 	border-radius: 2px;
 }
 
 
 footer .footerweb {
-	width: 20%;  
+	width: 15%;  
 	margin-top:auto; 
 	margin-bottom: auto; 
 	display: flex;
@@ -2659,12 +2914,14 @@ footer .footerconetting a {
 }
 
 footer .footerconetting a img {
-	width: 100%; 
+	width: 60%; 
 	float: left; 
-	padding:0px;  
+	padding:2%;  
 	margin-top:auto; 
 	margin-bottom: auto; 
+	filter: opacity(50%);
 }
+
 
 .contenedor1enormes{
 	display: none;
@@ -2698,7 +2955,7 @@ footer .footerconetting a img {
 
 
 
-@media screen and (max-width: 600px)  {
+@media screen and (max-width: 710px)  {
    
  
 
@@ -2768,7 +3025,7 @@ footer .footerconetting a img {
 
 
 #relleno {
-	height: 100px;
+	height: 90px;
 }
 
  
@@ -2778,7 +3035,7 @@ footer .footerconetting a img {
 	width: 100%; 
 	display: flex; 
 	flex-direction: row; 
-	border-bottom: 1px solid #ededed; 
+	border-bottom: 0px solid #ededed; 
 	justify-content: space-around;
 	vertical-align: middle;
 	margin-top:auto;
@@ -2839,26 +3096,32 @@ footer .footerconetting a img {
 	font-size: 18px;
 }
 
-.notaprincipal {
-	font-size: 16px;
-}
+
 
 
 .notaprincipal p {
-	font-size: 12px;
-	line-height: none;
+	font-size: 16px;
+	letter-spacing: -1px;
+	font-family: 'Libre Caslon Text';	
 }
 
 .contenedornota a h3 {
 	font-size: 26px;
+	font-family: 'Libre Caslon Text';
 }
 
 .notaprincipal .seccion {
-	font-size: 12px;
+	font-size: 15px;
+	font-family: 'Roboto Condensed';
 }
 
 .contenedornota h1 {
-	font-size: 10px;
+	font-size: 16px;
+}
+
+.contenedornota .terrorismo {
+	font-size: 14px;
+	font-family: 'Roboto Condensed';
 }
 
 
@@ -2934,7 +3197,7 @@ footer .footerconetting a img {
 }
 
 .recomendacionesindividuales h1{
-	font-size: 28px;
+	font-size: 18px;
 }
 
 .recomendacionescelular h1 {
@@ -3017,13 +3280,18 @@ background: linear-gradient(to right, #b2b7b8, white);
 #contenedor2 h5 {
 	padding:2px;
 	margin:0px;
+	padding-top:5px;
 	margin-right: -10px;
 	background-color: #303030;
 	color: white;
 	font-variant: small-caps;
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 14px;
 	text-align: center;
+}
+
+.financiero {
+	margin-bottom:20px;
 }
 
 
@@ -3035,30 +3303,35 @@ background: linear-gradient(to right, #b2b7b8, white);
 	color:grey;
 	margin:0px;
 	margin-top:0px;
-	font-family: 'Roboto Condensed';
+	font-family: 'Libre Caslon Text';
 	display: flex;
 	flex-direction: column;
+	justify-content: space-around;
+	border:2px solid #303030;
+	margin-left: auto;
+	margin-right: auto;
+
 
 }
 
 
 .lasmasleidascelular h3 {
-font-family: 'Roboto Condensed';
-font-size: 28px;
-letter-spacing: 1px;
+font-family: 'Libre Caslon Text';
+font-size: 14px;
+letter-spacing: 0px;
 font-weight: normal;
 text-transform: uppercase;
 font-variant: small-caps;
 text-align: center;
-color:white;
+color:#ebebeb;
 padding: 5px;
-margin-right: 20px;
-margin-left: 20px;
+padding-left: 20px;
+margin-right: 0px;
+margin-left: 0px;
 margin-top:0px;
 margin-bottom: 0px;
-background-color: #914644;
-border-radius: 2px;
-border-bottom: 2px solid white ;
+background-color: #303030;
+border-bottom: 4px solid #303030 ;
 
 }
 
@@ -3066,48 +3339,76 @@ border-bottom: 2px solid white ;
 .lasmasleidasdivcelular {
 	width: 100%;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	justify-content: space-around;
 }
 
 .lasmasleidasdivcelular div {
-	width: 33.3%;
+	width: 100%;
 	background-color: white;
 	align-items: center;
-	padding:0px;
-	margin:0px;
+	
 
 
 }
 
 .lasmasleidasdivcelular div h2 {
+	color: grey;
 	text-transform: uppercase;
 	font-variant: small-caps;
-	font-size: 18px;
+	font-size: 12px;
+	color: #303030;
 	text-align: center;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 	padding-bottom:2px;
 	padding-top:2px;
+	margin-top:10px;
+	margin-right: 20px;
+	margin-left: 40px;
+	background-color: #ebebeb;
+	font-weight: bold;
+	border-right: 0px solid #303030;
+	border-left: 10px dashed #303030;
 }
 
 .lasmasleidasdivcelular li {
-	font-size: 15px;
+	font-size: 20px;
 	letter-spacing: -1px;
 	padding:0px;
-	padding-top:10px;
+	padding-top:5px;
 	margin:0px;
-	color:#914644;
+	color:#ebebeb;
 	text-decoration: none;
 	font-weight: bold;
+	align-items: center;
+	list-style: square;
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 10px;
 }
-
 
 
 .lasmasleidasdivcelular li a {
-	font-size: 13px;
+	font-size: 14px;
+	letter-spacing: -1px;
 	color: grey;
-	font-family: 'Roboto Condensed';
+	font-family: 'Libre Caslon Text';
 	font-weight: normal;
+	margin-top:auto;
+	margin-bottom: auto;
+
 }
+
+.lasmasleidasdivcelular ul {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	vertical-align: middle;
+}
+
+
+
 
 
 
@@ -3156,13 +3457,13 @@ border-bottom: 2px solid white ;
 }
 
 .todaslasnotastabletyceltexto h3 {
-	font-size: 1.2em;
+	font-size: 18px;
 }
 
 .todaslasnotastabletyceltexto p {
 	max-height: 70px;
 	overflow: hidden;
-	font-size: 1em;
+	font-size: 14px;
 }
 
 
@@ -3195,6 +3496,11 @@ display: none;
 	width: 100%;
 }
 
+
+.notaprincipal img {
+	min-width: 330px;
+	overflow: hidden;
+}
 
 
 .todaslasnotastabletycel .todaslasnotastabletyceltexto {
@@ -3231,14 +3537,12 @@ display: none;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	border-top: 0.5px solid gray ;
-	border-bottom: 0px solid gray;
 	padding-top: 0px;
 	padding-bottom: 10px;
 	margin-left: 0px;
 	margin-bottom: 20px;
 	font-size: 16px;
-	font-family: 'Arvo';
+	font-family: 'Libre Caslon Text';
 	letter-spacing: -1px;
 	align-items:center;
 	text-align: justify;
@@ -3251,12 +3555,12 @@ display: none;
 .notastabletindividual {
 	width: 100%; 
 	padding:0px;
-	padding-top:10px;
-	padding-bottom:10px;
+	padding-top:15px;
+	padding-bottom:15px;
 	margin:0px;
 	display: flex;
 	flex-direction: row;
-	border-bottom: 1px solid grey;
+	border-bottom: 4px solid #ebebeb;
 	align-items: center;
 }
 
@@ -3266,7 +3570,7 @@ display: none;
 	font-family:'Libre Caslon Text';
 	font-size:18px;
 	text-align: left;
-	padding-bottom:10px;
+	padding-bottom:6px;
 	margin-bottom:0px;
 	margin-top:0px;
 	color: #303030;
@@ -3274,37 +3578,64 @@ display: none;
 
 .notastabletimg  {
 	width: 40%;
-	padding-bottom:0px;
-	margin-bottom: 0px;
-	float: right;
+	margin-top:auto;
+	margin-bottom:auto;
+	
+	max-height: 150px;
+	overflow: hidden;
 }
 
 .notastabletimg img {
 	width: 100%; 
 	padding:0px;
+	margin-top:auto;
+	margin-bottom:auto;
 	
   }
 
 .notastablettext {
 	width: 60%;
 	margin:10px;
+	margin-top:auto;
+	margin-bottom:auto;
 }
 
 .notastablettext p {
 padding:0px;
-margin:0px;
-max-height: 45px;
+margin-top: auto;
+margin-bottom:auto;
+max-height: 80px;
 overflow: hidden;
 font-size: 14px;
+line-height: 1.5em;
+}
+
+.notastablettext .pciberguerra {
+max-height: 40px;
+overflow: hidden;
+}
+
+.ciberguerra {
+	font-size: 14px;
+}
+
+.terrorismo {
+	font-size: 14px;
+}
+
+.notastablettext .pterrorismo {
+max-height: 40px;
+overflow: hidden;
 }
 
 
+
 .notastablet h4 {
-	padding-top:10px;
+	padding-top:5px;
 	padding-bottom:0px;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	font-size: 14px;
+	font-size: 12px;
 	letter-spacing: 0px;
 	font-family: 'Roboto Condensed';
 }
@@ -3313,6 +3644,8 @@ font-size: 14px;
 
 .notastablet .seccion2 {
 	font-size: 12px;
+	font-family: 'Roboto Condensed';
+	letter-spacing: 0px;
 }
 
 
@@ -3339,14 +3672,14 @@ footer .footer p {
 	text-align: center; 
 	margin:2px; 
 	padding:6px; 
-	font-size: 12px; 
+	font-size: 16px; 
 	font-family: 'Roboto Condensed'; 
 	color: #969696; 
 	font-variant:small-caps; 
 	text-transform: uppercase; 
 	font-style: italic; 
 	font-weight: bold; 
-	border-top: 0.5px solid #dbdbdb; 
+	border-top: 4px solid #ebebeb; 
 	
 }
 
@@ -3368,52 +3701,55 @@ footer .footerom {
 
 
 footer .footerom img {
-	width: 90%;	
+	width: 100%;	
 	margin-left:auto; 
 	margin-right: auto;
 	padding:0px; 
 	float:center; 
-	filter: opacity(80%);
+	filter: opacity(50%);
 
 }
 
 
 footer .footermail {
-	width: 10%;
+	width: 5%;
+	margin:2%;
 	text-align: center;
 	
 }
 
 footer .footermail img {
-	width: 40%;
+	width: 80%;
 	filter: opacity(50%);
 	border-radius: 2px;
 }
 
 
 footer .footerig {
-	width: 10%;
+	width: 5%;
+	margin:2%;
 }
 
 footer .footerig img {
-	width: 40%;
+	width: 80%;
 	filter: opacity(50%);
 }
 
 
 footer .footerfb {
-	width: 10%;
+	width: 5%;
+	margin:2%;
 }
 
 footer .footerfb img {
-	width: 40%;
+	width: 80%;
 	filter: opacity(50%);
 	border-radius: 2px;
 }
 
 
 footer .footerweb {
-	width: 20%;  
+	width: 15%;  
 	margin-top:auto; 
 	margin-bottom: auto; 
 	display: flex;
@@ -3446,9 +3782,10 @@ footer .footerconetting a {
 footer .footerconetting a img {
 	width: 100%; 
 	float: left; 
-	padding:0px;  
+	padding:2%;  
 	margin-top:auto; 
 	margin-bottom: auto; 
+	filter: opacity(50%);
 }
 
 .contenedor1enormes{
@@ -3457,6 +3794,35 @@ footer .footerconetting a img {
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4279,6 +4645,24 @@ footer .footerconetting a img {
 	margin-right: auto;
 	margin-left: auto;
 }
+
+
+
+body {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#costadosecciones {
+	width: 30%;
+	margin-right: 8px;
+	position: fixed;
+	top:270px; right: 20px;
+}
+
+
+
 
 }
 
